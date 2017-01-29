@@ -1,0 +1,20 @@
+﻿<Window x:Class="BonafideCertificateGenerator.BonafideLetterPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BonafideCertificateGenerator"
+        mc:Ignorable="d"
+        Title="BonafideLetterPage" Height="622" Width="579">
+    <Grid>
+        <TextBox x:Name="forPrincipleBox" HorizontalAlignment="Left" Height="23" Margin="407,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="generateBonafidePDFButton" Content="GENERATE PDF" HorizontalAlignment="Left" Margin="195,535,0,0" VerticalAlignment="Top" Width="200" Height="30" Click="generateBonafidePDFButton_Click"/>
+        <Button x:Name="editBonafideContentButton" Content="EDIT" HorizontalAlignment="Left" Margin="235,490,0,0" VerticalAlignment="Top" Width="120" Height="25" Click="editBonafideContentButton_Click"/>
+        <TextBox x:Name="bonafideCertificateTitleBox" HorizontalAlignment="Left" Height="23" Margin="220,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" IsEnabled="False"/>
+        <TextBox x:Name="bodyContentBox" HorizontalAlignment="Left" Height="155" Margin="30,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="495" IsEnabled="False"/>
+        <TextBox x:Name="passportAddressBox" HorizontalAlignment="Left" Height="91" Margin="195,355,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" IsEnabled="False"/>
+        <TextBox x:Name="hodAddressBox" HorizontalAlignment="Left" Height="98" Margin="30,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" IsEnabled="False"/>
+        <TextBox x:Name="dateBox" HorizontalAlignment="Left" Height="23" Margin="407,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+
+    </Grid>
+</Window>

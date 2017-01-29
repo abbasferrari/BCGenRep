@@ -1,0 +1,26 @@
+﻿<Window x:Class="BonafideCertificateGenerator.CertificatePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BonafideCertificateGenerator"
+        mc:Ignorable="d"
+        Title="CertificatePage" Height="642" Width="459">
+    <Grid Margin="0,0,-8,-1">
+        <Grid x:Name="GridForm" HorizontalAlignment="Left" Height="542" Margin="25,25,0,0" VerticalAlignment="Top" Width="405">
+            <Label x:Name="toContent" Content="To" HorizontalAlignment="Left" Margin="25,164,0,0" VerticalAlignment="Top" Width="90"/>
+            <TextBox x:Name="toAddressTextBox" HorizontalAlignment="Left" Height="87" Margin="25,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" IsEnabled="False"/>
+            <TextBox x:Name="fromAddressTextBox" HorizontalAlignment="Left" Height="79" Margin="25,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" IsEnabled="False"/>
+            <TextBox x:Name="refTextBox" HorizontalAlignment="Left" Height="20" Margin="65,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" IsEnabled="False"/>
+            <TextBox x:Name="dateTextBox" HorizontalAlignment="Left" Height="20" Margin="65,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" IsEnabled="False"/>
+            <TextBox x:Name="sirOrMadamTextBox" HorizontalAlignment="Left" Height="23" Margin="25,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+            <TextBox x:Name="bodyContent" HorizontalAlignment="Left" Height="127" Margin="25,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" IsEnabled="False"/>
+            <Button x:Name="editButton" Content="EDIT" HorizontalAlignment="Left" Margin="160,514,0,0" VerticalAlignment="Top" Width="75" Click="editButton_Click"/>
+            <TextBox x:Name="regardsBox" HorizontalAlignment="Left" Height="28" Margin="246,481,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" IsEnabled="False"/>
+            <TextBox x:Name="thankYouBox" HorizontalAlignment="Left" Height="36" Margin="127,430,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" IsEnabled="False"/>
+            <TextBox x:Name="departmentBox" HorizontalAlignment="Left" Height="38" TextWrapping="Wrap" VerticalAlignment="Top" Width="395" IsEnabled="False" Margin="0,-15,0,0"/>
+        </Grid>
+        <Button x:Name="createPDF" Content="Create PDF document" HorizontalAlignment="Left" Margin="110,567,0,0" VerticalAlignment="Top" Width="235" Click="Button_Click" Height="35"/>
+
+    </Grid>
+</Window>

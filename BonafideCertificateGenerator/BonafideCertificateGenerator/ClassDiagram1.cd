@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BonafideCertificateGenerator.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAkQAAAAAQAAghbCUAgAAEgABBQIAAhCAAIAEAAB0gA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BonafideCertificateGenerator.CertificatePage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAIAAAAAAAEAAAIACAAQAwAAAAAAAAA=</HashCode>
+      <FileName>CertificatePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BonafideCertificateGenerator.BonafideLetterPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAICAIAAAAAAAAAAAIAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>BonafideLetterPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BonafideCertificateGenerator.BonafideDatabase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAIAAAAiAAAAQACQAhAQAAAAAYQAAAQACQAoIQAEA=</HashCode>
+      <FileName>BonafideDatabase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BonafideCertificateGenerator.AutoMail" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAACAAAAAAIAKAAQAAAAASAAQAAgAAAAA=</HashCode>
+      <FileName>AutoMail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
